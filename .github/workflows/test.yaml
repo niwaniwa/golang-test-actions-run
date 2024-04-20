@@ -8,6 +8,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Use test-nirila-actionn
-        uses: niwaniwa/test-nirila-action@v4
+        uses: niwaniwa/test-nirila-action@v5
         with:
           user-name: "niwaniwa"
