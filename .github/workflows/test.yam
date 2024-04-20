@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    name: test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use test-nirila-actionn
+        uses: niwaniwa/test-nirila-actionn@v1
+        with:
+          user-name: "niwaniwa"
