@@ -8,6 +8,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Use test-nirila-actionn
-        uses: niwaniwa/test-nirila-action@v5
+        uses: suba327777/README.Mountain@v0.0.1
         with:
           user-name: "niwaniwa"
